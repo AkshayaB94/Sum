@@ -1,0 +1,17 @@
+/* Sum of 4 numbers */
+#include <stdio.h>
+void main()
+{
+int a,b,c,d,e;
+printf("enter the first number : ");
+scanf("%d", &a);
+printf("enter the second number : ");
+scanf("%d", &b);
+printf("enter the third number : ");
+scanf("%d", &c);
+printf("enter the fourth number : ");
+scanf("%d", &d);
+e=a+b+c+d;
+printf("%d", e);
+}
+
